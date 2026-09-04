@@ -5,7 +5,7 @@
 Estudante de Análise e Desenvolvimento de Sistemas. Vim do lado do negócio —
 sites e campanhas de tráfego pago para clientes, onde a única métrica que
 importava era conversão — e isso me deixou o hábito de olhar software pelo
-resultado. Hoje escrevo Python, e a pergunta continua sendo a mesma: isso
+resultado. Hoje eu sou desenvolvedor, e a pergunta continua sendo a mesma: isso
 resolve o quê, e como eu sei que resolveu?
 
 🔍 **Procuro estágio em desenvolvimento**, remoto ou híbrido.
