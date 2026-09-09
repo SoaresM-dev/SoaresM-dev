@@ -10,13 +10,17 @@ resolve o quê, e como eu sei que resolveu?
 
 🔍 **Procuro estágio em desenvolvimento**, remoto ou híbrido.
 
+🌎 Inglês avançado — leio documentação e converso sem tradutor no caminho.
+
 ### O que está aqui
 
 | | |
 |---|---|
-| [**aiden**](https://github.com/SoaresM-dev/aiden) | Assistente de voz em português rodando **100% offline** numa máquina sem GPU, com 15,7 GB de RAM. Pipeline inteiro: wake word treinada localmente → faster-whisper → roteador com 27 skills → LLM via Ollama → Piper → HUD por WebSocket. **524 testes**, tempo até a primeira resposta de 14,8s para 8,5s. |
-| [**painel-convertta**](https://github.com/SoaresM-dev/painel-convertta) | Ferramenta interna para acompanhar leads e custo por lead de campanhas. FastAPI + PostgreSQL + Alembic + JWT, front em React, `docker compose up` sobe tudo. **43 testes** rodando contra Postgres na CI. |
+| [**aiden**](https://github.com/SoaresM-dev/aiden) | Assistente de voz em português rodando **100% offline** numa máquina sem GPU, com 15,7 GB de RAM. Pipeline inteiro: wake word treinada localmente → faster-whisper → roteador com 27 skills → LLM via Ollama → Piper → HUD por WebSocket. **526 testes**, tempo até a primeira resposta de 14,8s para 8,5s. |
+| [**painel-convertta**](https://github.com/SoaresM-dev/painel-convertta) | Ferramenta interna para acompanhar leads e custo por lead de campanhas. FastAPI + PostgreSQL + Alembic + JWT, front em React, `docker compose up` sobe tudo. **96 testes** rodando contra Postgres na CI, e [no ar com conta demo](https://painel-convertta-web.onrender.com). |
 | [**sql-trafego-pago**](https://github.com/SoaresM-dev/sql-trafego-pago) | Modelagem em estrela e **dez consultas** que respondem as perguntas de uma reunião de cliente. Semente determinística e CI que confere a saída de cada consulta — sem `random()` em lugar nenhum. |
+| [**consulta-cnpj**](https://github.com/SoaresM-dev/consulta-cnpj) | API em **Node e TypeScript** que consulta dados públicos de empresas, com cache, limite de uso e repetição seletiva — repete no que é falha passageira, desiste no que não vai melhorar. **35 testes**, e nenhum toca a rede. |
+| [**estruturas-c**](https://github.com/SoaresM-dev/estruturas-c) | Vetor dinâmico, lista duplamente encadeada e fila circular em **C11 estrito**. **23 testes**, Valgrind sem vazamento, `gcc` e `clang` com `-Werror`, e uma bancada que mede O(1) contra O(n). |
 | [**portfolio**](https://github.com/SoaresM-dev/portfolio) | Página única em HTML, CSS e JavaScript puros. Sem framework, sem build. |
 
 ### Como eu trabalho
@@ -40,7 +44,8 @@ nunca sobe.
 ### Stack
 
 `Python` `FastAPI` `SQLAlchemy` `Alembic` `pytest` `PostgreSQL` `SQL`
-`JavaScript` `HTML` `CSS` `React` `Docker` `Git` `GitHub Actions` `C`
+`Node.js` `TypeScript` `JavaScript` `HTML` `CSS` `React` `Vite`
+`Docker` `Git` `GitHub Actions` `C`
 
 E, do lado do negócio: `Google Ads` `Meta Ads` `Analytics` `CRO`.
 
